@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.Registration">
+   <children>
+      <ImageView fitHeight="408.0" fitWidth="609.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Users/moiha/Downloads/_bm_27984.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="reg" layoutX="274.0" layoutY="306.0" mnemonicParsing="false" text="Далее" />
+      <TextField fx:id="login" layoutX="110.0" layoutY="119.0" prefHeight="39.0" prefWidth="159.0" promptText="Логин" />
+      <TextField fx:id="pass" layoutX="110.0" layoutY="175.0" prefHeight="39.0" prefWidth="159.0" promptText="Пароль" />
+      <TextField fx:id="nm" layoutX="110.0" layoutY="231.0" prefHeight="39.0" prefWidth="159.0" promptText="Номер телефона" />
+      <Text layoutX="173.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добро пожаловать!">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Text layoutX="213.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Произведите регистрацию">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="pre" layoutX="325.0" layoutY="126.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="137.0" text="Подтвердить логин" />
+      <Button fx:id="pra" layoutX="325.0" layoutY="188.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="137.0" text="Подтвердить пароль" />
+      <Button fx:id="num" layoutX="325.0" layoutY="238.0" mnemonicParsing="false" text="Подтвердить телефон" />
+   </children>
+</Pane>
