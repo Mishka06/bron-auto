@@ -42,7 +42,7 @@ public class WindowController {
 
 
             try {
-                BufferedReader reader = new BufferedReader(new FileReader("C:\\course-project-home-first-aid-kit-master\\src\\inputpass.txt")) {
+                BufferedReader reader = new BufferedReader(new FileReader("C:\\bronauto\\src\\inputpass.txt")) {
                 };
                 String line;
                 while ((line = reader.readLine()) != null) {
@@ -77,7 +77,7 @@ public class WindowController {
                 throw new RuntimeException(e);
             }
             try {
-                BufferedReader reader = new BufferedReader(new FileReader("C:\\course-project-home-first-aid-kit-master\\src\\inputlogin.txt")) {
+                BufferedReader reader = new BufferedReader(new FileReader("C:\\bronauto\\src\\inputlogin.txt")) {
                 };
                 String line;
                 while ((line = reader.readLine()) != null) {
