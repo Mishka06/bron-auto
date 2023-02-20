@@ -45,7 +45,7 @@ public class Registration {
         pra.setOnAction(clik -> {
             try {
                 String line=(pass.getText());
-                FileOutputStream fileOutputStream =new FileOutputStream("C:\\course-project-home-first-aid-kit-master\\src\\inputpass.txt");
+                FileOutputStream fileOutputStream =new FileOutputStream("C:\\bronauto\\src\\inputpass.txt");
                 byte[] buffer=line.getBytes();
                 fileOutputStream.write(buffer);
                 System.out.println("Пароль сохранён");
@@ -56,7 +56,7 @@ public class Registration {
         pre.setOnAction(clik -> {
             try {
                 String line=(login.getText());
-                FileOutputStream fileOutputStream =new FileOutputStream("C:\\course-project-home-first-aid-kit-master\\src\\inputlogin.txt");
+                FileOutputStream fileOutputStream =new FileOutputStream("C:\\bronauto\\src\\inputlogin.txt");
                 byte[] buffer=line.getBytes();
                 fileOutputStream.write(buffer);
                 System.out.println("Логин сохранён");
@@ -67,7 +67,7 @@ public class Registration {
         num.setOnAction(clik -> {
             try {
                 String line=(nm.getText());
-                FileOutputStream fileOutputStream =new FileOutputStream("C:\\course-project-home-first-aid-kit-master\\src\\num.txt");
+                FileOutputStream fileOutputStream =new FileOutputStream("C:\\bronauto\\src\\num.txt");
                 byte[] buffer=line.getBytes();
                 fileOutputStream.write(buffer);
                 System.out.println("Телефон сохранён");
