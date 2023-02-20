@@ -75,7 +75,7 @@ public class Controller {
                 String line = ("Марка: "+" "+nameInput.getText()+" ");
                 String line2=("Модель: "+ageInput.getText()+" ");
                 String line3=("Год выпуска: "+numberInput.getText()+" ");
-                FileOutputStream fileOutputStream =new FileOutputStream("C:\\course-project-home-first-aid-kit-master\\src\\data.txt");
+                FileOutputStream fileOutputStream =new FileOutputStream("C:\\bronauto\\src\\data.txt");
                 byte[] buffer=line.getBytes();
                 fileOutputStream.write(buffer);
                 buffer=line2.getBytes();
